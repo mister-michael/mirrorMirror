@@ -1,0 +1,17 @@
+.boxBox {
+    display: flex;
+}
+
+#boxOne {
+    border: 1px solid red;
+    width: 50%;
+    /* width: 40%;
+    height: 40px; */
+}
+
+#boxTwo {
+    border: 1px solid blue;
+    width: 50%;
+    /* width: 40%;
+    height: 20px; */
+}
