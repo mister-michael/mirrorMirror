@@ -5,15 +5,17 @@ const boxTwo = document.querySelector("#boxTwo");
 const captureText = () => {
  const entryField = document.getElementById("message")
 
- boxOne.innerHTML += `
+ boxOne.innerHTML = `
  ${entryField.value}
  `;
 
- boxTwo.innerHTML += `
+//  console.log(entryField.value)
+
+ boxTwo.innerHTML = `
  ${entryField.value}
  `;
 
- entryField.value= ""
+//  entryField.value= ""
  
 }
 
